@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Demostración del Sistema de Rentas con datos de ejemplo.">
+  <title>Sistema de Rentas (demostración)</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <a class="saltar" href="#principal">Saltar al contenido</a>
+  <div class="banner-prototipo" role="note">Demostración con datos de ejemplo. No es el sistema en funcionamiento.</div>
+  <header class="barra" id="barra"></header>
+  <div class="marco">
+    <nav class="menu" id="menu" aria-label="Menú principal"></nav>
+    <div class="contenido">
+      <main class="pagina" id="principal" tabindex="-1">
+        <noscript><p>Esta demostración necesita JavaScript activado en el navegador.</p></noscript>
+      </main>
+      <footer class="pie" id="pie"></footer>
+    </div>
+  </div>
+  <div id="vivo" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <div id="emergentes" class="emergentes" aria-live="polite"></div>
+  <dialog id="dialogo" class="dialogo"></dialog>
+
+  <!-- Datos de ejemplo (ficticios) -->
+  <script src="data/config.js"></script>
+  <script src="data/perfiles.js"></script>
+  <script src="data/modulos.js"></script>
+  <script src="data/preguntas-cliente.js"></script>
+  <script src="data/pendientes.js"></script>
+  <script src="data/glosario.js"></script>
+  <script src="data/alcance.js"></script>
+  <script src="data/demo.js"></script>
+  <script src="data/demo-emision.js"></script>
+  <script src="data/demo-deuda.js"></script>
+  <script src="data/demo-control.js"></script>
+  <script src="data/specs.js"></script>
+  <!-- Núcleo -->
+  <script src="js/util.js"></script>
+  <script src="js/iconos.js"></script>
+  <script src="js/componentes.js"></script>
+  <!-- Pantallas de negocio -->
+  <script src="js/pantallas/_comun.js"></script>
+  <script src="js/pantallas/registro.js"></script>
+  <script src="js/pantallas/determinacion.js"></script>
+  <script src="js/pantallas/emision.js"></script>
+  <script src="js/pantallas/cuenta.js"></script>
+  <script src="js/pantallas/caja.js"></script>
+  <script src="js/pantallas/valores.js"></script>
+  <script src="js/pantallas/deuda.js"></script>
+  <script src="js/pantallas/control.js"></script>
+  <script src="js/pantallas/ia.js"></script>
+  <script src="js/pantallas/alcance.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

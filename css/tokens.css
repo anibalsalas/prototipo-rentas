@@ -1,0 +1,72 @@
+/* =====================================================================
+   Tokens del prototipo — ÚNICO lugar donde se definen colores, tipos,
+   espacios, radios y sombras. Ver docs/prototipo/guia-estilo.md.
+   En enero: cambiar --c-primario* y el logo (PE-001).
+   ===================================================================== */
+:root {
+  /* Identidad (propuesta, PE-001) */
+  --c-primario: #1E4F75;
+  --c-primario-hover: #163B58;
+  --c-primario-suave: #E8EFF6;
+  --c-acento: #08707B;
+  --c-acento-suave: #E3F4F5;
+
+  /* Neutros */
+  --c-texto: #172B3A;
+  --c-texto-2: #4A5D6E;
+  --c-texto-3: #5F6F7E;
+  --c-borde-control: #8696A5;
+  --c-borde: #D9E1E8;
+  --c-fondo: #F4F7FA;
+  --c-superficie: #FFFFFF;
+  --c-superficie-2: #F0F4F8;   /* encabezado de tabla */
+  --c-cebra: #FAFBFC;
+  --c-deshabilitado: #EEF2F5;
+  --c-foco: #1D5FA0;
+
+  /* Semánticos (fuerte / suave) */
+  --c-exito: #1B6E3F;   --c-exito-suave: #E5F4EA;
+  --c-alerta: #8A5300;  --c-alerta-suave: #FFF3D6;
+  --c-error: #B3261E;   --c-error-suave: #FCE9E7;
+  --c-info: #1D5FA0;    --c-info-suave: #E7F0FA;
+  --c-pend: #6A3D9A;    --c-pend-suave: #F2ECFA;  /* solo PENDIENTE ENERO */
+
+  /* Tipografía */
+  --f-base: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --f-mono: ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+  --escala: 1;                 /* A− / A+ : 0.875 · 1 · 1.125 · 1.25 */
+  --t-h1: 1.75rem;
+  --t-h2: 1.25rem;
+  --t-h3: 1.0625rem;
+  --t-cuerpo: 1rem;
+  --t-pequeno: 0.875rem;
+  --t-etiqueta: 0.8125rem;
+  --t-micro: 0.75rem;
+  --t-kpi: 1.75rem;
+
+  /* Espaciado (base 4 px) */
+  --s-1: 0.25rem;  /* 4 */
+  --s-2: 0.5rem;   /* 8 */
+  --s-3: 0.75rem;  /* 12 */
+  --s-4: 1rem;     /* 16 */
+  --s-5: 1.5rem;   /* 24 */
+  --s-6: 2rem;     /* 32 */
+  --s-7: 3rem;     /* 48 */
+
+  /* Forma */
+  --r-1: 4px;
+  --r-2: 8px;
+  --r-pill: 999px;
+  --alto-control: 2.5rem;      /* 40 px */
+  --ancho-menu: 16.5rem;       /* 264 px */
+  --ancho-menu-min: 4rem;      /* 64 px */
+  --ancho-max: 90rem;          /* 1440 px */
+
+  /* Elevación */
+  --e-0: none;
+  --e-1: 0 1px 2px rgba(23, 43, 58, .08);
+  --e-2: 0 4px 12px rgba(23, 43, 58, .12);
+  --e-3: 0 12px 32px rgba(23, 43, 58, .20);
+
+  --transicion: 120ms ease-out;
+}
